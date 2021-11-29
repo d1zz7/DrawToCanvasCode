@@ -1,0 +1,17 @@
+# @d1zz7 
+from tkinter import * 
+root = Tk() 
+root.title('Application Title') 
+root.geometry('700x700') 
+wn=Canvas(root, width=700, height=700, bg='white') 
+
+
+wn.create_oval(89, 119, 89 + 40, 119 + 40, width=40, fill="#aa61e0", outline="#aa61e0")
+wn.create_rectangle(235, 102, 235 + 30, 102 + 30, width=40, fill="#aa61e0", outline="#aa61e0")
+wn.create_line(371, 51, 385, 240, width=40, fill="#000000")
+
+
+
+
+wn.pack() 
+root.mainloop()

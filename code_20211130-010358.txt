@@ -1,0 +1,8 @@
+# @d1zz7 
+from tkinter import * 
+root = Tk() 
+root.title('Application Title') 
+root.geometry('700x700') 
+wn=Canvas(root, width=700, height=700, bg='white') 
+
+
